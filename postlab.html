@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="Style/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="Styles/postlab.css" />
+    <script src="JS/postlab.js"></script>
+    <!-- <script src="JS/plot.js"></script> -->
+
+    <title>PostLab</title>
+  </head>
+  <body
+    style="
+background-color: aliceblue;
+      background-size: cover;
+      background-repeat: no-repeat;
+    "
+  >
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <div class="center">
+      <p>
+        <a class="btn btn-lg btn-outline-dark"> PostLab Quiz and Exercise </a>
+      </p>
+    </div>
+
+    <div class="info-center border border-dark border-1 rounded-3">
+      <p>
+        <a class="btn btn-lg btn-outline-dark"> Quiz </a>
+      </p>
+      <hr />
+    <div class="questions">
+      <div class="q1">
+      <!-- ans: 2 -->
+      <p>
+        1. Transmitting antenna has which of the following parameter as a basic requirement.
+      </p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+        <label class="form-check-label" for="exampleRadios1">
+          Side lobes are low
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <label class="form-check-label" for="exampleRadios2">
+          Efficiency is high
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+        <label class="form-check-label" for="exampleRadios3">
+          High SNR value
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+        <label class="form-check-label" for="exampleRadios4">
+          Low SNR value
+        </label>
+      </div>
+      <div class="ans mt-2">
+        <p>
+          <a class="btn btn-sm btn-dark" data-bs-toggle="collapse" href="#ans1" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Answer
+          </a>
+        </p>
+        <div class="collapse" id="ans1">
+          <div class="card card-body">
+            2. Efficiency is High
+          </div>
+        </div>
+      </div>
+      </div>
+      <hr>
+
+      <br>
+
+      <div class="q2">
+        <!-- ans: 1 -->
+        <p>
+          2. At what condition does wave radiates?
+        </p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+          <label class="form-check-label" for="exampleRadios1">
+            When the TEM wave between transmitting and receiving antenna approaches lambda
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            When the TEM wave between transmitting and receiving antenna exceeds lambda
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+          <label class="form-check-label" for="exampleRadios3">
+            None of the above
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+          <label class="form-check-label" for="exampleRadios4">
+            When the TEM wave between transmitting and receiving antenna is lesser than lambda
+          </label>
+        </div>
+        <div class="ans mt-2">
+          <p>
+            <a class="btn btn-sm btn-dark" data-bs-toggle="collapse" href="#ans2" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Answer
+            </a>
+          </p>
+          <div class="collapse" id="ans2">
+            <div class="card card-body">
+              1. When the TEM wave between transmitting and receiving antenna approaches lambda
+            </div>
+          </div>
+        </div>
+      </div>
+        <hr>
+        <br>
+
+        <div class="q3">
+          <!-- ans: 2 -->
+          <p>
+            3. The characteristics of an antenna's radiation pattern can be represented in ________ number of ways.
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+            <label class="form-check-label" for="exampleRadios1">
+              2
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              3
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+            <label class="form-check-label" for="exampleRadios3">
+              4
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+            <label class="form-check-label" for="exampleRadios4">
+              5
+            </label>
+          </div>
+          <div class="ans mt-2">
+            <p>
+              <a class="btn btn-sm btn-dark" data-bs-toggle="collapse" href="#ans3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Answer
+              </a>
+            </p>
+            <div class="collapse" id="ans3">
+              <div class="card card-body">
+                2. 3
+              </div>
+            </div>
+          </div>
+          </div>
+          <hr>
+          
+          <br>
+
+          <div class="q4">
+            <!-- ans: 3 -->
+            <p>
+              4. Radiation patterns can be represented in terms of _______ types.
+            </p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+              <label class="form-check-label" for="exampleRadios1">
+                Field Patterns
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                Power Patterns
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+              <label class="form-check-label" for="exampleRadios3">
+                Both a and b
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+              <label class="form-check-label" for="exampleRadios4">
+                Direection Patterns
+              </label>
+            </div>
+            <div class="ans mt-2">
+              <p>
+                <a class="btn btn-sm btn-dark" data-bs-toggle="collapse" href="#ans4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Answer
+                </a>
+              </p>
+              <div class="collapse" id="ans4">
+                <div class="card card-body">
+                  3. Both a and b
+                </div>
+              </div>
+            </div>
+            </div>
+            <hr>
+
+            <br>
+          
+            <div class="q5">
+              <!-- ans: 1 -->
+              <p>
+                5. An electromagnetic wave has how many fields _______.
+              </p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">
+                  2
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  3
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">
+                  4
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                <label class="form-check-label" for="exampleRadios4">
+                  5
+                </label>
+              </div>
+              <div class="ans mt-2">
+                <p>
+                  <a class="btn btn-sm btn-dark" data-bs-toggle="collapse" href="#ans5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Answer
+                  </a>
+                </p>
+                <div class="collapse" id="ans5">
+                  <div class="card card-body">
+                    1. 2
+                  </div>
+                </div>
+              </div>
+              </div>
+              <hr>
+              <br>
+
+              <div class="q6">
+                <!-- ans: 4 -->
+                <p>
+                  6. Electric field in EM wave is plotted on ______ axis.
+                </p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">
+                    Either a or b
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    Y-axis
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                  <label class="form-check-label" for="exampleRadios3">
+                    Z-axis
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                  <label class="form-check-label" for="exampleRadios4">
+                    X-axis
+                  </label>
+                </div>
+                <div class="ans mt-2">
+                  <p>
+                    <a class="btn btn-sm btn-dark" data-bs-toggle="collapse" href="#ans6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Answer
+                    </a>
+                  </p>
+                  <div class="collapse" id="ans6">
+                    <div class="card card-body">
+                      4. X-axis
+                    </div>
+                  </div>
+                </div>
+                </div>
+              <hr>
+              <br>
+
+    </div>
+
+
+
+    </div>
+
+    <!-- Procedure Starts here -->
+
+    <div class="info-center border border-dark border-1 rounded-3">
+      <p>
+        <a class="btn btn btn-outline-dark">
+          Vary the value of the distance of the point with from the antenna to
+          plot the graph and check the results obtained for a given frequency
+          and angle.
+        </a>
+      </p>
+      <hr />
+      <div id="steps">
+        <ol>
+          <li>
+            The exercise consists of three sliders through which you can vary
+            the Frequency, Distance and theta.
+          </li>
+          Here,
+          <br />
+          <ul>
+            <li>F: operating frequency of antenna</li>
+            <li>R: distance between given point and center of antenna</li>
+            <li>
+              &Theta; : angle between arm of antenna and the line joining point
+              P and center of antenna O
+            </li>
+          </ul>
+          <li>
+            Set the value of frequency and theta to your choice. (The value must
+            remain constant throughout the experiment)
+          </li>
+          <li>
+            After changing the values for R, F and &Theta;, observe the value of
+            the following parameters:
+          </li>
+          <ul>
+            <li>Magnitude of Electric Field</li>
+            <li>Magnitude of Magnetic Field</li>
+          </ul>
+          <li>
+            Now click on "Add to the table" button to add the values to the
+            Observation Table
+          </li>
+          <li>
+            Repeat the experiment 10 times with different values to fill up the
+            Observation Table
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="exp">
+      <div class="d-flex justify-content-evenly">
+        <div class="d-flex flex-column">
+          <div class="btn btn-outline-dark btn-sm my-3">
+            <label for="customRange3" class="form-label">
+              Frequency (F) :
+            </label>
+            <input
+              type="range"
+              class="form-range"
+              min="300"
+              max="1000"
+              value="650"
+              id="customRange3"
+              onmousemove="freq(this.value)"
+            />
+            <div id="freq">650 mHz</div>
+          </div>
+          <div class="btn btn-outline-dark btn-sm my-3">
+            <label for="customRange3" class="form-label">
+              Distance (R) :
+            </label>
+            <input
+              type="range"
+              class="form-range"
+              min="1"
+              max="100"
+              value="50"
+              id="customRange3"
+              onmousemove="dist(this.value)"
+            />
+            <div id="dist">50 m</div>
+          </div>
+          <div class="btn btn-outline-dark btn-sm my-3">
+            <label for="customRange3" class="form-label">
+              Angle (&Theta;) :
+            </label>
+            <input
+              type="range"
+              class="form-range"
+              min="0"
+              max="180"
+              value="90"
+              id="customRange3"
+              onmousemove="angle(this.value)"
+            />
+            <div id="theta">90 &#176;</div>
+          </div>
+        </div>
+        <div class="d-flex flex-column">
+          <div class="consts">
+            <div class="d-flex flex-column">
+              <div class="inp1 mt-4 mb-2" id="txt3">
+                Speed of Light (c) : 3x10<sup>8</sup>, &#160; &#181;<sub>0</sub>
+                = 4&pi;x10<sup>-7</sup> &#160; &epsilon;<sub>0</sub> =
+                8.84x10<sup>-12</sup>
+              </div>
+              <div class="inp1 my-2" id="txt3">
+                Maximum or peak value of current (I<sub>0</sub>) = 5
+              </div>
+              <div class="inp1 my-2" id="txt3">
+                Intrinsic Impedence (&eta;) = 120&pi;
+              </div>
+              <div class="inp1 my-2" id="txt3">
+                Relative permitivity (&epsilon;<sub>0</sub>) = 1
+              </div>
+              <div class="reset mt-3">
+                <p>
+                  <a class="btn btn-outline-success" onclick="solve()">
+                    Add values to the Observation Table
+                  </a>
+                </p>
+                <p>
+                  <a class="btn btn-outline-danger" onclick="reset()">
+                    Reset
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Observation Table Starts -->
+
+    <div class="table-header mt-3">
+      <p>
+        <a class="btn btn-outline-dark btn-lg"> Observation Table </a>
+      </p>
+    </div>
+
+    <div class="obs-table">
+      <div class="d-flex justify-content-evenly">
+        <table
+          class="table table-striped table-hover table-bordered border-dark"
+        >
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Frequency (mHz)</th>
+              <th scope="col">Distance (m)</th>
+              <th scope="col">Magnetic Field (A/m)</th>
+              <th scope="col">Electric Field (V/m)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td><span id="freq2_1"></span></td>
+              <td><span id="dist2_1"></span></td>
+              <td><span id="mag2_1"></span></td>
+              <td><span id="elec2_1"></span></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td><span id="freq2_2"></span></td>
+              <td><span id="dist2_2"></span></td>
+
+              <td><span id="mag2_2"></span></td>
+              <td><span id="elec2_2"></span></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td><span id="freq2_3"></span></td>
+              <td><span id="dist2_3"></span></td>
+
+              <td><span id="mag2_3"></span></td>
+              <td><span id="elec2_3"></span></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td><span id="freq2_4"></span></td>
+              <td><span id="dist2_4"></span></td>
+
+              <td><span id="mag2_4"></span></td>
+              <td><span id="elec2_4"></span></td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td><span id="freq2_5"></span></td>
+              <td><span id="dist2_5"></span></td>
+
+              <td><span id="mag2_5"></span></td>
+              <td><span id="elec2_5"></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="plot-label">
+      <p>
+        <a class="btn btn-outline-success" onclick="plot()"> Plot </a>
+      </p>
+    </div>
+
+    <div id="mag">
+      <h5><u>Magnetic Field vs Distance from the antenna</u></h5>
+    </div>
+    
+    <canvas id="myChartMag" style="width: 100%; max-width: 600px"></canvas>
+
+    <br><br>
+    <div id="elec">
+      <h5><u>Electric Field vs Distance from the antenna</u></h5>
+    </div>
+    
+
+    <canvas id="myChartElec" style="width: 100%; max-width: 600px"></canvas>
+
+    <div>
+      <p>
+        <span style="float: left; margin-left: 50px"
+          ><a class="btn btn-sm btn-outline-dark" href="index.html"
+            ><strong> Back </strong></a
+          ></span
+        >
+        <!-- <span style="float: right; margin-right: 50px"
+          ><a class="btn btn-sm btn-outline-dark" href="conclusion.html"
+            ><strong> Next </strong></a
+          ></span -->
+        >
+      </p>
+    </div>
+
+    <br /><br />
+
+    <!-- Observation Table ends -->
+  </body>
+</html>
